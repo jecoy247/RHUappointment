@@ -1,0 +1,96 @@
+.bg-accent-one { background-color: $accent-one !important; }
+.bg-accent-two { background-color: $accent-two !important; }
+.bg-accent-three { background-color: $accent-three !important; }
+.bg-accent-four { background-color: $accent-four !important; }
+.bg-accent-five { background-color: $accent-five !important; } 
+// text color style
+.text-accent-one { color: $accent-one !important; }
+.text-accent-two { color: $accent-two !important; }
+.text-accent-three { color: $accent-three !important; }
+.text-accent-four { color: $accent-four !important; }
+.text-accent-five { color: $accent-five !important; }
+// box shaddow
+.box-shadow {box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);}
+.padding-ten { padding: 10px;}
+// top margin
+.r-top-margin {
+    margin-top: 10%;
+}
+.top-margin-five {
+    margin-top: 5%;
+}
+// form design
+.round-form {
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 12%;
+}
+.margin-ten{
+    margin: 10px;
+}
+.btn-one {
+    position: relative;
+    background-color: $accent-two;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+    &:hover {
+        background-color: $accent-one;
+        transition: .2s;
+    }
+}
+.btn-two {
+    position: relative;
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: $accent-five;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    &:hover {
+        color: $accent-two;
+        transition: .2s;
+    }
+}
+
+.btn-confirm {
+    position: relative;
+    background-color: $green;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+    &:hover {
+    background-color: $blue;
+        transition: .2s;
+    }
+}
+
